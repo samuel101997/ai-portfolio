@@ -63,11 +63,10 @@ Thought: {agent_scratchpad}"""
         tools=tools,
         verbose=VERBOSE,
         max_iterations=MAX_ITERATIONS,
-        handle_parsing_errors=True
+        handle_parsing_errors="Check your output and make sure it conforms to the expected format. Always end with 'Final Answer: <your answer>'"
     )
 
     return executor
-
 
 def run_agent(query):
     log_step("query", query)
@@ -76,6 +75,9 @@ def run_agent(query):
         result = executor.invoke({"input": query})
         log_step("result", result["output"])
         return result["output"]
+    except json.JSONDecodeError as e:
+        log_step("parse_error", str(e))
+        return "The agent completed research but had trouble formatting the response. Please try again with a more specific query."
     except Exception as e:
         log_step("error", str(e))
         return f"Agent encountered an error: {str(e)}"

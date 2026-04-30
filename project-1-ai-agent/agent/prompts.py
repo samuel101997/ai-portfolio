@@ -20,6 +20,13 @@ Important rules:
 - If multiple sources conflict, highlight the discrepancy
 - Ensure findings directly answer the research question
 - Keep your final report well-organized with clear sections
+
+CRITICAL FORMATTING RULES:
+- Action must be EXACTLY one of: web_search, wikipedia, summarize
+- Action must contain ONLY the tool name, nothing else
+- Do NOT number your actions (no "Action 1:", just "Action:")
+- Do NOT add descriptions in parentheses after the tool name
+- Action Input must be a simple string query, no quotes needed
 """
 
 REPORT_TEMPLATE = """## Research Report: {topic}

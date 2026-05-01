@@ -1,0 +1,258 @@
+NOVATEL MOBILE - DEVICE COMPATIBILITY & SETUP GUIDE
+Version 2.0 | Effective: January 1, 2026
+Internal Document - Customer Support Reference
+
+====================================================================
+SECTION 1: NETWORK TECHNOLOGY AND BANDS
+====================================================================
+
+1.1 NOVATEL NETWORK OVERVIEW
+NovaTel Mobile operates on the following network technologies:
+- 5G NR (New Radio): Primary network for data and voice in urban areas
+- 4G LTE: Nationwide coverage backbone
+- 3G UMTS/HSPA+: Legacy network - SCHEDULED FOR SHUTDOWN JULY 1, 2026
+  IMPORTANT: After July 1, 2026, devices that only support 3G will no 
+  longer work on the NovaTel network. Proactively inform customers with 
+  3G-only devices.
+
+1.2 REQUIRED FREQUENCY BANDS
+For full compatibility with NovaTel's network, devices must support:
+
+4G LTE Bands (minimum required marked with *):
+- Band 2 (1900 MHz)* - Primary LTE band
+- Band 4 (AWS-1 1700/2100 MHz)* - Primary LTE band
+- Band 5 (850 MHz) - Extended rural coverage
+- Band 7 (2600 MHz)* - Urban high-capacity
+- Band 12 (700 MHz) - Building penetration
+- Band 13 (700 MHz) - Extended coverage
+- Band 17 (700 MHz) - Building penetration
+- Band 66 (AWS-3) - Extended AWS coverage
+
+5G NR Bands:
+- n2 (1900 MHz) - 5G coverage layer
+- n5 (850 MHz) - 5G low-band coverage
+- n7 (2600 MHz) - 5G mid-band
+- n12 (700 MHz) - 5G low-band
+- n66 (AWS) - 5G coverage
+- n77 (3.5 GHz) - 5G high-capacity (primary 5G band)
+- n78 (3.5 GHz) - 5G high-capacity
+
+A device must support at minimum Band 2, Band 4, and Band 7 for LTE 
+to be considered compatible. 5G access requires 5G-capable device AND 
+a 5G-enabled plan (all current plans include 5G access).
+
+====================================================================
+SECTION 2: BYOD (BRING YOUR OWN DEVICE)
+====================================================================
+
+2.1 COMPATIBILITY CHECK PROCESS
+Before activating a customer's own device:
+1) Obtain the device IMEI (customer dials *#06# or checks Settings > 
+   About Phone)
+2) Enter IMEI into the NovaTel IMEI Checker tool
+3) The tool will report:
+   - "Fully Compatible" - All bands supported, proceed with activation
+   - "Partially Compatible" - Some bands missing, may experience 
+     coverage gaps in certain areas. Inform customer before proceeding.
+   - "Not Compatible" - Critical bands missing. Do NOT activate. 
+     Recommend device upgrade or NovaTel-certified device.
+   - "Blocked" - Device is on the national blocked device list (lost, 
+     stolen, or involved in fraud). Do NOT activate. If customer claims 
+     ownership, advise them to contact their previous carrier.
+
+2.2 DEVICE LOCK STATUS
+- All NovaTel devices sold after December 1, 2017 are sold UNLOCKED 
+  (CRTC mandate)
+- For devices purchased before that date, NovaTel will unlock free of 
+  charge upon request. Use the Device Unlock tool in the agent portal.
+- BYOD devices must be unlocked before activation on NovaTel. If a 
+  customer's device is locked to another carrier, they must contact 
+  that carrier to unlock it first.
+
+====================================================================
+SECTION 3: SIM CARDS AND eSIM
+====================================================================
+
+3.1 PHYSICAL SIM CARDS
+NovaTel uses a universal SIM card that can be popped out to three sizes:
+- Standard SIM (1FF) - Rarely used, legacy devices only
+- Micro SIM (3FF) - Older smartphones and some tablets
+- Nano SIM (4FF) - Most modern smartphones
+
+SIM Card SKUs:
+- NV-SIM-001: Universal SIM (new activation) - $10
+- NV-SIM-002: Universal SIM (replacement) - $10
+- NV-SIM-003: Universal SIM (device upgrade, same number) - Free
+
+SIM cards are available at all NovaTel retail stores and can be shipped 
+to the customer's address (delivery in 3-5 business days, free shipping).
+
+3.2 eSIM (EMBEDDED SIM)
+NovaTel supports eSIM activation on compatible devices.
+
+eSIM Supported Devices (as of January 2026):
+Apple: iPhone XS and later, iPad Pro (3rd gen and later), iPad Air 
+(3rd gen and later), Apple Watch Series 4 and later
+Samsung: Galaxy S20 and later, Galaxy Z Flip/Fold series, Galaxy 
+Watch4 and later
+Google: Pixel 3a and later
+Other: Most flagship devices from 2020 onward - check IMEI tool
+
+eSIM Activation Process:
+1) Verify device eSIM compatibility via IMEI Checker
+2) Generate eSIM profile in the eSIM Management tool
+3) Provide customer with QR code (via email or display on agent screen)
+4) Customer scans QR code: Settings > Cellular > Add eSIM > 
+   Scan QR Code
+5) eSIM activates within 5 minutes
+6) Confirm activation by having customer make a test call
+
+eSIM Key Rules:
+- One eSIM profile per NovaTel line (cannot use same number on multiple 
+  eSIM devices simultaneously)
+- eSIM can coexist with a physical SIM from another carrier (dual SIM)
+- eSIM profiles can be transferred between devices by generating a new 
+  QR code (old profile is automatically deactivated)
+- eSIM activation fee: Free
+- No physical SIM is needed when using eSIM
+
+====================================================================
+SECTION 4: DEVICE SETUP - ANDROID
+====================================================================
+
+4.1 INITIAL SETUP FOR NOVATEL ON ANDROID
+Step 1: Insert NovaTel SIM card or activate eSIM
+Step 2: Power on the device and follow on-screen setup wizard
+Step 3: When prompted for mobile network settings, the device should 
+        automatically detect NovaTel's network and configure settings
+Step 4: If automatic configuration fails, manually set APN:
+        Settings > Network & Internet > Mobile Network > Access Point 
+        Names > (+) Add new APN
+        Enter the following:
+        - Name: NovaTel Internet
+        - APN: novatel.data
+        - MMSC: http://mms.novatel.ca
+        - MMS Proxy: mmsproxy.novatel.ca
+        - MMS Port: 8080
+        - MCC: 302
+        - MNC: 880
+        - APN Type: default,mms,supl
+        - APN Protocol: IPv4/IPv6
+        Save and select the NovaTel Internet APN
+
+Step 5: Enable VoLTE for HD voice calls:
+        Settings > Network & Internet > Mobile Network > 
+        VoLTE / HD Voice > Enable
+
+Step 6: Enable Wi-Fi Calling (optional):
+        Settings > Network & Internet > Mobile Network > 
+        Wi-Fi Calling > Enable
+        Set preference: "Wi-Fi preferred" or "Cellular preferred"
+
+Step 7: Set up voicemail:
+        Dial *86 and follow voice prompts to set up PIN and greeting
+
+Step 8: Download the My NovaTel app from Google Play Store for 
+        account management, data usage tracking, and bill payment
+
+====================================================================
+SECTION 5: DEVICE SETUP - iPHONE
+====================================================================
+
+5.1 INITIAL SETUP FOR NOVATEL ON iPHONE
+Step 1: Insert NovaTel SIM card or activate eSIM
+Step 2: Power on and follow on-screen setup wizard
+Step 3: iPhone should automatically download NovaTel carrier settings
+        (requires Wi-Fi or data connection)
+Step 4: If carrier settings do not download automatically:
+        Settings > General > About > If prompted, tap "Update"
+        If no prompt appears, check Settings > General > About and 
+        verify "Carrier" shows "NovaTel" with a version number
+
+Step 5: Verify cellular settings:
+        Settings > Cellular > Cellular Data Options:
+        - Enable LTE: Voice & Data
+        - Data Roaming: OFF (unless customer has roaming add-on)
+
+Step 6: Enable Wi-Fi Calling:
+        Settings > Phone > Wi-Fi Calling > Enable
+        Enter emergency address (required by regulation)
+
+Step 7: Visual Voicemail setup:
+        Phone app > Voicemail tab > Set Up Now
+        Create voicemail password and record greeting
+
+Step 8: Download the My NovaTel app from the App Store
+
+5.2 iPHONE-SPECIFIC KNOWN ISSUES
+- iOS 18.x: Some customers report intermittent 5G connection drops. 
+  Workaround: Settings > Cellular > Cellular Data Options > 
+  Voice & Data > set to "5G Auto" instead of "5G On"
+- Dual SIM (eSIM + Physical): If customer uses NovaTel eSIM with 
+  another carrier's physical SIM, ensure NovaTel is set as the 
+  default line for cellular data
+- iMessage/FaceTime: After SIM swap or eSIM activation, customer may 
+  need to toggle iMessage OFF then ON to re-register their number
+
+====================================================================
+SECTION 6: DEVICE FINANCING
+====================================================================
+
+6.1 NOVATEL DEVICE FINANCING PROGRAM
+NovaTel offers 0% interest device financing on eligible plans:
+- Starter plan: Not eligible
+- Essential plan: Up to $500 financing
+- Premium plan: Up to $1,200 financing
+- Ultimate plan: Up to $2,000 financing
+- Prepaid plans: Not eligible
+
+Financing Terms:
+- 24-month term (monthly installments added to phone bill)
+- 0% interest for the full term
+- Early payoff allowed at any time with no penalty
+- If customer cancels service or ports out, remaining device balance 
+  becomes due immediately
+- If customer downgrades to an ineligible plan, device financing 
+  continues but no further financing is available
+
+6.2 DEVICE UPGRADE PROGRAM (TRADE-IN)
+Customers with active device financing can upgrade early:
+- After 12 months: Trade in current device, remaining balance waived 
+  up to $300. Customer starts new financing on new device.
+- After 18 months: Trade in current device, remaining balance fully 
+  waived. Customer starts new financing on new device.
+- Before 12 months: Must pay remaining balance in full to upgrade.
+
+Trade-in conditions:
+- Device must power on
+- Screen must not be cracked or shattered
+- No water damage indicators triggered
+- Device must not be on the blocked device list
+- All personal data must be factory reset before trade-in
+
+====================================================================
+SECTION 7: WEARABLES AND TABLETS
+====================================================================
+
+7.1 SMARTWATCH PLANS
+NovaTel supports cellular smartwatches with a paired plan:
+- Smartwatch Add-On: $10/month per watch
+- Shares the primary line's phone number
+- Requires compatible watch (Apple Watch Series 4+, Samsung Galaxy 
+  Watch4+, Google Pixel Watch)
+- Includes: Unlimited talk/text, 500 MB data
+- Additional watch data: $5 per 500 MB add-on
+
+Setup: Pair watch with phone using manufacturer's app. In the app, 
+select "Set up cellular" and choose NovaTel when prompted. Activation 
+completes automatically.
+
+7.2 TABLET PLANS
+NovaTel offers standalone data plans for tablets:
+- Tablet 5 GB: $15/month
+- Tablet 15 GB: $25/month
+- Tablet Unlimited: $40/month (throttled after 30 GB)
+
+Tablet plans are data-only. No voice or SMS capability. Tablet plans 
+can be added as additional lines on an existing postpaid account 
+(multi-line discounts apply).

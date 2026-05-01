@@ -1,0 +1,311 @@
+NOVATEL MOBILE - TROUBLESHOOTING HANDBOOK
+Version 3.1 | Last Updated: February 15, 2026
+Internal Document - Customer Support Reference
+
+====================================================================
+SECTION 1: NO SERVICE / NO SIGNAL
+====================================================================
+
+1.1 SYMPTOMS
+- Phone displays "No Service" or "No Signal"
+- Customer cannot make calls, send texts, or use data
+- Signal bars show zero or "Searching..."
+
+1.2 STEP-BY-STEP RESOLUTION
+Step 1: Confirm the customer's account is active and in good standing. 
+        Check for suspensions due to non-payment in the billing system.
+        If account is suspended, refer to Billing & Account Policies document.
+
+Step 2: Ask the customer to toggle Airplane Mode on, wait 10 seconds, 
+        then toggle it off. This forces the device to re-register with 
+        the network.
+
+Step 3: Ask the customer to restart their device completely (power off, 
+        wait 30 seconds, power on).
+
+Step 4: Check the NovaTel Network Status Dashboard for outages in the 
+        customer's area. Enter their postal code to see real-time status.
+        If there is an active outage, inform the customer with the 
+        estimated resolution time. Log the interaction as "Network Outage 
+        - Customer Notified" in the CRM.
+
+Step 5: Verify SIM card status:
+        a) Ask customer to remove and reinsert the SIM card
+        b) Check SIM status in the system - ensure it shows "Active"
+        c) If SIM shows "Inactive" or "Suspended", reactivate via 
+           the SIM Management tool
+        d) If SIM appears damaged, offer a free SIM replacement 
+           (ship to customer or direct to nearest NovaTel store)
+
+Step 6: Check device compatibility. Use the IMEI checker tool to confirm 
+        the device supports NovaTel's network bands:
+        - 4G LTE: Bands 2, 4, 5, 7, 12, 13, 17, 66
+        - 5G: Bands n2, n5, n7, n12, n66, n77, n78
+        If the device does not support required bands, inform the customer 
+        their device is not fully compatible with NovaTel's network.
+
+Step 7: If none of the above resolves the issue, create a network trouble 
+        ticket (Category: Coverage/Signal, Priority: Medium). Provide the 
+        customer with the ticket number and expected callback within 48 hours.
+
+====================================================================
+SECTION 2: SLOW DATA / INTERNET NOT WORKING
+====================================================================
+
+2.1 SYMPTOMS
+- Web pages load slowly or time out
+- Apps cannot connect to the internet
+- Streaming stutters or fails to load
+- Speed test shows very low results
+
+2.2 STEP-BY-STEP RESOLUTION
+Step 1: Check if the customer has exceeded their high-speed data allotment.
+        In the account overview, check "Data Usage" for the current cycle.
+        If data is exceeded:
+        - Inform the customer of their throttled speed per their plan
+        - Offer a data add-on (see Plans Guide, Section 3.1)
+        - If customer disputes usage, escalate to Data Usage Review team
+
+Step 2: Verify mobile data is enabled on the device:
+        - Android: Settings > Network & Internet > Mobile Network > 
+          Mobile Data (toggle ON)
+        - iPhone: Settings > Cellular > Cellular Data (toggle ON)
+
+Step 3: Check APN (Access Point Name) settings:
+        Correct NovaTel APN settings:
+        - Name: NovaTel Internet
+        - APN: novatel.data
+        - MMSC: http://mms.novatel.ca
+        - MMS Proxy: mmsproxy.novatel.ca
+        - MMS Port: 8080
+        - MCC: 302
+        - MNC: 880
+        - APN Type: default,mms,supl
+        - APN Protocol: IPv4/IPv6
+        
+        If settings are incorrect, guide the customer to manually enter 
+        them. On most devices: Settings > Network > Mobile Network > 
+        Access Point Names > Add New APN.
+
+Step 4: Ask the customer to reset network settings:
+        - Android: Settings > System > Reset Options > Reset Wi-Fi, 
+          Mobile & Bluetooth
+        - iPhone: Settings > General > Transfer or Reset iPhone > Reset > 
+          Reset Network Settings
+        WARNING: This will erase saved Wi-Fi passwords. Inform the customer 
+        before proceeding.
+
+Step 5: Check for network congestion in the customer's area using the 
+        Network Capacity Dashboard. If congestion is high:
+        - Inform the customer that speeds may be temporarily reduced
+        - Suggest connecting to Wi-Fi if available
+        - Note: Ultimate plan customers receive priority during congestion
+
+Step 6: If issue persists, create a trouble ticket (Category: Data/Speed, 
+        Priority: Medium). Include speed test results if available.
+
+====================================================================
+SECTION 3: CANNOT MAKE OR RECEIVE CALLS
+====================================================================
+
+3.1 SYMPTOMS
+- Calls fail to connect or drop immediately
+- Customer hears error message or silence when dialing
+- Incoming calls go straight to voicemail without the phone ringing
+
+3.2 STEP-BY-STEP RESOLUTION
+Step 1: Verify account status - check for suspensions, call barring, 
+        or feature restrictions on the account.
+
+Step 2: Check if the customer has Wi-Fi Calling enabled and if they're 
+        in an area with weak cellular signal but strong Wi-Fi:
+        - If Wi-Fi Calling is OFF and customer has poor signal, suggest 
+          enabling it
+        - If Wi-Fi Calling is ON and calls are failing, suggest disabling 
+          it temporarily to test over cellular
+
+Step 3: Check if Call Forwarding is enabled:
+        - Dial ##002# to deactivate all call forwarding
+        - This resolves many "calls going straight to voicemail" issues
+
+Step 4: Ask the customer to try calling from a different location. If 
+        calls work elsewhere, the issue is likely coverage-related. 
+        Check the coverage map and suggest Wi-Fi Calling or a NovaTel 
+        Signal Booster ($99.99, free for Premium and Ultimate customers).
+
+Step 5: If the customer reports one-way audio (they can hear the other 
+        party but the other party cannot hear them, or vice versa):
+        - Test the microphone and speaker with the Voice Diagnostic 
+          tool (dial *#67#)
+        - If hardware issue is suspected, refer to Device Support team
+
+Step 6: Check for VoLTE (Voice over LTE) compatibility:
+        - If the device supports VoLTE but it's disabled, guide customer 
+          to enable it: Settings > Network > Mobile Network > VoLTE
+        - VoLTE provides HD voice quality and faster call setup
+
+Step 7: If unresolved, create trouble ticket (Category: Voice, 
+        Priority: High).
+
+====================================================================
+SECTION 4: TEXT MESSAGE ISSUES
+====================================================================
+
+4.1 SYMPTOMS
+- SMS/MMS messages fail to send
+- Messages are received but not sent, or vice versa
+- Group messages not working
+- Picture messages (MMS) fail
+
+4.2 STEP-BY-STEP RESOLUTION
+Step 1: Verify the customer's message center number:
+        - NovaTel Message Center: +13025550199
+        - Check in device settings under Messages > SMS settings
+
+Step 2: For MMS failures, verify APN settings include MMS configuration 
+        (see Section 2.2, Step 3 for correct settings).
+
+Step 3: For group messaging issues on iPhone:
+        - Settings > Messages > Group Messaging (must be ON)
+        - Settings > Messages > MMS Messaging (must be ON)
+        For Android:
+        - Open Messages app > Settings > Advanced > Group Messaging 
+          (set to "Send MMS reply to all recipients")
+
+Step 4: Check if the customer is trying to send to a short code (4-6 
+        digit number). Some plans have short code messaging disabled by 
+        default. Enable via Account Features in the billing system.
+
+Step 5: If sending to international numbers, verify the customer has 
+        international texting enabled. Standard international SMS rate: 
+        $0.30 per message. International MMS rate: $0.60 per message.
+        These charges apply on all plans unless International Calling 
+        Unlimited add-on is active.
+
+====================================================================
+SECTION 5: VOICEMAIL ISSUES
+====================================================================
+
+5.1 SETTING UP VOICEMAIL
+- Dial *86 from the NovaTel device
+- Default PIN: last 4 digits of the phone number
+- Customer must set a new PIN on first setup (4-8 digits)
+- Greeting recording: follow voice prompts after PIN setup
+
+5.2 COMMON VOICEMAIL PROBLEMS
+Problem: "Voicemail box is full"
+Solution: Customer must delete old messages. Capacity depends on plan:
+- Starter: 10 messages
+- Essential: 25 messages  
+- Premium: 50 messages
+- Ultimate: Unlimited
+- Prepaid: 10 messages
+
+Problem: "Forgot voicemail PIN"
+Solution: Reset via Account Management tool. New temporary PIN will be 
+sent via SMS. Customer must set a new permanent PIN on next voicemail 
+access.
+
+Problem: "Visual voicemail not working"
+Solution: 
+1) Verify plan includes visual voicemail (Essential and above)
+2) Ensure the NovaTel Visual Voicemail app is installed
+3) Check data connection (visual voicemail requires data)
+4) Re-provision visual voicemail via Feature Management tool
+
+====================================================================
+SECTION 6: MOBILE HOTSPOT ISSUES
+====================================================================
+
+6.1 HOTSPOT NOT WORKING
+Step 1: Verify the customer's plan includes mobile hotspot.
+        - Starter plan: No hotspot included
+        - Essential: 5 GB hotspot
+        - Premium: 15 GB hotspot
+        - Ultimate: 30 GB dedicated hotspot
+        - Prepaid Basic: No hotspot
+        - Prepaid Plus: 2 GB hotspot
+        - Prepaid Unlimited: 5 GB hotspot
+
+Step 2: Check if hotspot data allowance is exhausted (separate from 
+        regular data on Ultimate plan, shared on other plans).
+
+Step 3: Verify hotspot is enabled on the account. Some legacy plans 
+        require hotspot to be provisioned separately. Enable via 
+        Feature Management tool.
+
+Step 4: Guide customer through device hotspot setup:
+        - iPhone: Settings > Personal Hotspot > Allow Others to Join
+        - Android: Settings > Network > Hotspot & Tethering > 
+          Wi-Fi Hotspot
+
+Step 5: If connecting devices cannot see the hotspot:
+        - Ensure hotspot name does not contain special characters
+        - Try changing the hotspot password
+        - Toggle hotspot off and on
+        - Ensure the connecting device's Wi-Fi is scanning
+
+====================================================================
+SECTION 7: INTERNATIONAL ROAMING ISSUES
+====================================================================
+
+7.1 ROAMING NOT WORKING
+Step 1: Verify roaming is enabled on the account. By default, 
+        international roaming is DISABLED on all new activations.
+        Enable via Account Features > Roaming > International Roaming.
+
+Step 2: Check if the customer has a roaming add-on or if their plan 
+        includes roaming:
+        - No plan includes international roaming by default
+        - Daily Pass: $12/day (must be activated BEFORE traveling)
+        - Weekly Pass: $60/week (must be activated BEFORE traveling)
+        - Without a pass, roaming rates are:
+          * Voice: $1.50/minute
+          * SMS: $0.50/message  
+          * Data: $15/100 MB
+
+Step 3: Ensure the customer's device is set to allow roaming:
+        - iPhone: Settings > Cellular > Data Roaming (ON)
+        - Android: Settings > Network > Mobile Network > Data Roaming (ON)
+
+Step 4: Have the customer try manually selecting a network:
+        - iPhone: Settings > Cellular > Network Selection > 
+          turn off Automatic > select a local carrier
+        - Android: Settings > Network > Mobile Network > 
+          Network Operators > Search Networks > select carrier
+
+Step 5: Supported roaming countries and partner networks are listed 
+        in the NovaTel Roaming Coverage document. If the customer is 
+        in a country not on the supported list, NovaTel cannot 
+        guarantee service.
+
+====================================================================
+SECTION 8: DEVICE-SPECIFIC ISSUES
+====================================================================
+
+For device-specific troubleshooting beyond network connectivity, refer 
+customers to:
+- NovaTel Device Support: 1-800-NOVA-DEV (1-800-668-2338)
+- Online device guides: support.novatel.ca/devices
+- In-store technical support at any NovaTel retail location
+
+Common device issues handled by Device Support:
+- Battery drain problems
+- Screen and display issues
+- Software update failures
+- Bluetooth and Wi-Fi connectivity (non-NovaTel network)
+- Physical damage assessment
+- Warranty claims and repair requests
+
+====================================================================
+SECTION 9: EMERGENCY SERVICES
+====================================================================
+
+CRITICAL: All NovaTel devices can dial 911 even without an active plan 
+or SIM card. If a customer reports inability to reach 911:
+1) This is a PRIORITY 1 issue - escalate immediately
+2) Advise the customer to use a landline or another mobile device
+3) Do NOT attempt standard troubleshooting - escalate to Network 
+   Operations Center (NOC) immediately at extension 9911
+4) Log the interaction as "911 Access Failure" - this triggers 
+   automatic regulatory reporting

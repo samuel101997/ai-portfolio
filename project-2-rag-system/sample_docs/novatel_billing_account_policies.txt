@@ -1,0 +1,258 @@
+NOVATEL MOBILE - BILLING & ACCOUNT POLICIES
+Version 2.8 | Effective: January 1, 2026
+Internal Document - Customer Support Reference
+
+====================================================================
+SECTION 1: BILLING CYCLE AND PAYMENT
+====================================================================
+
+1.1 BILLING CYCLE
+NovaTel bills postpaid customers on a monthly cycle. The billing date is 
+set on the day the customer activates their account. For example, if a 
+customer activates on March 15, their billing cycle runs from the 15th 
+of each month to the 14th of the following month.
+
+Bills are generated 3 days after the cycle ends. Payment is due 21 days 
+after the bill is generated. For example:
+- Cycle ends: April 14
+- Bill generated: April 17
+- Payment due: May 8
+
+1.2 ACCEPTED PAYMENT METHODS
+- Credit card (Visa, Mastercard, American Express)
+- Debit card (Visa Debit, Interac)
+- Pre-authorized bank withdrawal (PAW) - direct debit from chequing account
+- NovaTel account credit (from bill credits, returned payments, etc.)
+- In-store cash or debit payment at any NovaTel retail location
+- Online banking bill payment (allow 3-5 business days to process)
+
+IMPORTANT: NovaTel does NOT accept payment via:
+- PayPal
+- Cryptocurrency
+- Money orders
+- Cheques (discontinued as of July 2025)
+
+1.3 AUTOPAY
+- Customers can set up AutoPay via My NovaTel app or website
+- AutoPay processes payment on the due date
+- If AutoPay fails, customer receives SMS and email notification
+- System retries payment 3 days after initial failure
+- If retry fails, account enters Pre-Suspension status (see Section 3)
+- AutoPay discount: $5/month off any postpaid plan when enrolled
+
+====================================================================
+SECTION 2: FEES AND CHARGES
+====================================================================
+
+2.1 ONE-TIME FEES
+- SIM card: $10 (waived for new activations on Essential plan or higher)
+- eSIM activation: Free
+- SIM replacement (lost/damaged): $10
+- Number change: $25
+- Account transfer (change account holder): $50
+- Paper bill fee: $3/month (waived if customer opts for e-billing)
+- Reconnection fee after suspension: $35
+- Early device return restocking fee: $75
+
+2.2 LATE PAYMENT FEES
+- Late payment fee: $10 applied if payment not received by due date
+- Late payment fees are applied once per billing cycle, not daily
+- Interest on overdue balances: 2% per month (26.82% annually)
+- Interest begins accruing 30 days after the original due date
+- Late payment fees can be waived ONE TIME per 12-month period as a 
+  courtesy. This must be noted in the account under "Courtesy Credits"
+
+2.3 OVERAGE CHARGES
+- Data overage: No overage charges. Data is throttled or paused based 
+  on plan type (see Plans Guide for throttle speeds per plan)
+- International calls without add-on: $1.50/minute outgoing, 
+  $1.00/minute incoming (when roaming)
+- International texts without add-on: $0.30/message sent, 
+  free to receive
+- Premium text services (short codes): $0.50 per message unless 
+  specifically blocked on account
+- Directory assistance (411): $2.50 per call
+
+====================================================================
+SECTION 3: ACCOUNT SUSPENSION AND RECONNECTION
+====================================================================
+
+3.1 NON-PAYMENT SUSPENSION TIMELINE
+Day 0: Payment due date
+Day 1-7: Grace period. Customer receives daily SMS reminders.
+Day 8: Late payment fee ($10) applied.
+Day 14: Pre-Suspension notice sent (SMS + email). Customer can still 
+        make/receive calls but a recorded message plays before each call.
+Day 21: OUTGOING services suspended. Customer can still receive calls 
+        and texts. Incoming calls play a message: "This NovaTel customer 
+        is temporarily unavailable." Data services suspended.
+Day 30: FULL suspension. All services suspended including incoming calls. 
+        Customer's number is reserved for 90 days.
+Day 120: Account cancelled. Phone number released to the number pool. 
+         Outstanding balance sent to collections agency.
+
+3.2 RECONNECTION
+- Customer must pay all outstanding balances including late fees
+- Reconnection fee: $35
+- Service restored within 2 hours of payment processing
+- If account was fully cancelled (after Day 120), a new account must 
+  be created. Original phone number may not be available.
+
+3.3 VOLUNTARY SUSPENSION (SEASONAL HOLD)
+- Customers can voluntarily suspend their account for up to 3 months
+- Monthly fee during suspension: $15/month (keeps number and account active)
+- No data, calls, or text during suspension
+- Device financing payments continue during suspension
+- Request must be made at least 5 business days before desired start date
+- Maximum 2 voluntary suspensions per calendar year
+
+====================================================================
+SECTION 4: REFUND POLICY
+====================================================================
+
+4.1 GENERAL REFUND RULES
+- Refunds are processed within 5-10 business days
+- Refunds are returned to the original payment method
+- If original payment method is no longer valid, a cheque will be mailed
+- Refund requests over $200 require manager approval (escalate to Team Lead)
+
+4.2 ELIGIBLE REFUNDS
+- Duplicate payments: Full refund of duplicate amount
+- Service outage credits: Prorated credit for outages lasting more than 
+  4 continuous hours. Credit = (monthly plan fee / 30) x number of full 
+  days affected. Maximum credit: one full month's plan fee.
+- Unauthorized charges: Full refund after investigation (7-14 business days). 
+  Customer must report unauthorized charges within 90 days.
+- Plan change errors: If a customer was moved to wrong plan due to agent 
+  error, full refund of any price difference. Escalate to Quality team.
+- Device return within buyer's remorse period: Full refund minus $75 
+  restocking fee (see Section 5).
+
+4.3 NON-REFUNDABLE CHARGES
+- Used data add-ons (even partial use is considered "used")
+- International roaming charges for confirmed usage
+- Late payment fees (can be waived as courtesy, but not refunded if paid)
+- SIM card fees
+- Account transfer fees
+- Services used during the buyer's remorse period
+
+====================================================================
+SECTION 5: BUYER'S REMORSE / RETURN POLICY
+====================================================================
+
+5.1 POSTPAID SERVICES
+- New customers may cancel within 15 days of activation (the 
+  "Buyer's Remorse" period, as mandated by CRTC Wireless Code)
+- Customer must return any subsidized or financed device in original 
+  condition with all accessories
+- Usage limits during buyer's remorse: If customer exceeds the greater 
+  of 50% of the plan's monthly usage limit OR 50% of their overage cap, 
+  the return privilege is voided
+- Refund: All plan charges refunded. Activation fee refunded. Device 
+  charges refunded minus $75 restocking fee if device opened.
+
+5.2 DEVICE RETURNS (NON-BUYER'S REMORSE)
+- Devices purchased outright can be returned within 15 days if UNOPENED
+- Opened devices cannot be returned unless defective
+- Defective devices: Exchange or refund within 30 days. After 30 days, 
+  warranty claim must be processed through manufacturer.
+
+5.3 PREPAID REFUNDS
+- Unused prepaid balances are non-refundable
+- Exception: If NovaTel cancels the customer's prepaid account due to 
+  a NovaTel error, the remaining balance will be refunded
+
+====================================================================
+SECTION 6: CREDIT CHECKS AND DEPOSITS
+====================================================================
+
+6.1 CREDIT CHECK POLICY
+- All new postpaid activations require a credit check
+- Credit check performed via Equifax or TransUnion
+- Customer must consent to credit check (verbal consent is sufficient, 
+  must be noted in account)
+- Prepaid plans do NOT require a credit check
+
+6.2 CREDIT CLASSIFICATIONS
+Class A (Excellent Credit): No deposit required. Full device financing 
+available. All plans available.
+
+Class B (Good Credit): No deposit required. Device financing up to 
+$1,000. All plans available.
+
+Class C (Fair Credit): Deposit of $200 required OR prepaid plan only. 
+Device financing up to $400 with deposit.
+
+Class D (Poor Credit/No Credit History): Deposit of $400 required OR 
+prepaid plan only. No device financing available.
+
+6.3 DEPOSIT RULES
+- Deposits are held for 12 months of consecutive on-time payments
+- After 12 months of good standing, deposit is applied as a bill credit
+- If account is cancelled before 12 months, deposit is applied to 
+  final balance. Any remainder is refunded.
+- Deposits do not earn interest
+
+====================================================================
+SECTION 7: ACCOUNT MANAGEMENT
+====================================================================
+
+7.1 AUTHORIZED USERS
+- Account holder can add up to 3 authorized users
+- Authorized users can: make plan changes, add features, view bills, 
+  make payments
+- Authorized users CANNOT: cancel the account, transfer account 
+  ownership, or access credit information
+- Authorization requires: Full name, date of birth, and a 4-digit PIN 
+  set by the account holder
+
+7.2 ACCOUNT SECURITY
+- All account access requires identity verification:
+  Option 1: Account PIN (4-digit number set at activation)
+  Option 2: Security questions (2 of 3 must be answered correctly)
+  Option 3: One-time verification code sent to phone on account
+- For sensitive operations (cancellation, ownership transfer, port-out), 
+  a valid government-issued photo ID is required
+- After 3 failed verification attempts, account is locked for 1 hour
+- If customer has forgotten all verification methods, they must visit 
+  a NovaTel store with government-issued photo ID
+
+7.3 PORT-IN AND PORT-OUT
+Port-In (customer bringing number from another carrier):
+- Process takes 2-4 hours during business hours
+- Customer must provide: Current carrier account number, phone number, 
+  and any port-out PIN from current carrier
+- Customer should NOT cancel with current carrier before initiating 
+  port — the port process automatically cancels the old account
+
+Port-Out (customer leaving NovaTel):
+- NovaTel must process port-out requests within 2 business hours 
+  (CRTC requirement)
+- All outstanding balances remain payable
+- Device financing balances become due immediately upon port-out
+- Customer should contact new carrier to initiate the port-out
+
+====================================================================
+SECTION 8: TAXES AND REGULATORY FEES
+====================================================================
+
+All NovaTel prices are shown BEFORE tax. The following taxes and fees 
+are added to every bill:
+
+Federal:
+- GST (Goods and Services Tax): 5%
+
+Provincial (varies by province):
+- Ontario: HST 13% (replaces GST)
+- Quebec: GST 5% + QST 9.975%
+- British Columbia: GST 5% + PST 7%
+- Alberta: GST 5% only
+- Other provinces: See provincial tax table in Knowledge Base
+
+Regulatory:
+- 911 Emergency Services Fee: $0.75/month per line
+- CRTC Contribution Levy: Included in plan price (not shown separately)
+
+IMPORTANT: Taxes are NOT included in advertised plan prices. When 
+quoting plan costs to customers, always clarify: "The plan is $XX per 
+month plus applicable taxes."

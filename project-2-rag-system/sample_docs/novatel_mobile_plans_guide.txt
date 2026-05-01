@@ -1,0 +1,190 @@
+NOVATEL MOBILE - COMPLETE PLANS GUIDE
+Version 4.2 | Effective: January 1, 2026
+Internal Document - Customer Support Reference
+
+====================================================================
+SECTION 1: POSTPAID PLANS OVERVIEW
+====================================================================
+
+NovaTel Mobile offers four postpaid plan tiers designed to serve different customer needs. All postpaid plans include unlimited talk and text within Canada and the United States. Plans are billed monthly on the customer's billing cycle date.
+
+1.1 STARTER PLAN - $35/month
+- 5 GB high-speed data (4G LTE / 5G where available)
+- Unlimited Canada/US talk and text
+- No mobile hotspot included
+- Data speed reduced to 512 Kbps after limit reached
+- Voicemail included (10 messages, 3-minute max per message)
+- Call display and call waiting included
+- No international calling included
+- No device subsidy or financing available on this plan
+- Minimum commitment: None (month-to-month)
+
+1.2 ESSENTIAL PLAN - $55/month
+- 25 GB high-speed data (4G LTE / 5G where available)
+- Unlimited Canada/US talk and text
+- 5 GB mobile hotspot (draws from data pool)
+- Data speed reduced to 1 Mbps after limit reached
+- Visual voicemail included (25 messages)
+- Call display, call waiting, and 3-way calling included
+- 100 international minutes to 30+ countries (see Appendix A)
+- Eligible for device financing up to $500
+- Minimum commitment: None (month-to-month)
+
+1.3 PREMIUM PLAN - $75/month
+- 50 GB high-speed data (5G prioritized)
+- Unlimited Canada/US talk and text
+- 15 GB mobile hotspot (draws from data pool)
+- Data speed reduced to 2 Mbps after limit reached
+- Visual voicemail with transcription (50 messages)
+- All call features included
+- Unlimited international calling to 50+ countries (see Appendix A)
+- Free NovaTel Cloud 50 GB storage
+- Eligible for device financing up to $1,200
+- Priority customer support queue
+- Minimum commitment: None (month-to-month)
+
+1.4 ULTIMATE PLAN - $95/month
+- Unlimited high-speed data (5G prioritized, no throttling up to 100 GB, 
+  then deprioritized during congestion)
+- Unlimited Canada/US talk and text
+- 30 GB dedicated mobile hotspot
+- No speed reduction (deprioritization only after 100 GB)
+- Visual voicemail with transcription (unlimited messages)
+- All call features included
+- Unlimited international calling to 80+ countries
+- Free NovaTel Cloud 200 GB storage
+- Free NovaTel Secure VPN service
+- Eligible for device financing up to $2,000
+- Priority customer support queue with dedicated agent
+- Free annual device protection (screen repair, 1 incident per year)
+- Minimum commitment: None (month-to-month)
+
+====================================================================
+SECTION 2: PREPAID PLANS
+====================================================================
+
+NovaTel offers three prepaid options. Prepaid plans must be recharged before the expiry date to maintain the phone number. If not recharged within 90 days of expiry, the phone number will be released.
+
+2.1 PREPAID BASIC - $20/30 days
+- 2 GB high-speed data
+- Unlimited Canada talk and text
+- US roaming: $5/day add-on required
+- No mobile hotspot
+- Data stops after limit (no throttling, service paused)
+
+2.2 PREPAID PLUS - $40/30 days
+- 10 GB high-speed data
+- Unlimited Canada/US talk and text
+- 2 GB mobile hotspot
+- Data throttled to 256 Kbps after limit
+- 50 international minutes included
+
+2.3 PREPAID UNLIMITED - $60/30 days
+- Unlimited data (first 15 GB at high speed, then throttled to 1 Mbps)
+- Unlimited Canada/US talk and text
+- 5 GB mobile hotspot
+- 100 international minutes included
+
+====================================================================
+SECTION 3: ADD-ONS AND EXTRAS
+====================================================================
+
+3.1 DATA ADD-ONS (available on all plans)
+- Extra 1 GB: $10 (one-time, expires end of billing cycle)
+- Extra 3 GB: $25 (one-time, expires end of billing cycle)
+- Extra 5 GB: $35 (one-time, expires end of billing cycle)
+- Data Boost 10 GB: $15/month (recurring, auto-renews)
+- Unlimited Data Upgrade: $20/month (recurring, adds unlimited throttled data at 3 Mbps after plan limit)
+
+3.2 INTERNATIONAL ADD-ONS
+- International Calling 100: $10/month (100 minutes to 30+ countries)
+- International Calling Unlimited: $20/month (unlimited to 50+ countries)
+- International Roaming Daily Pass: $12/day (unlimited talk/text, 1 GB data per day in 40+ countries)
+- International Roaming Weekly Pass: $60/week (unlimited talk/text, 5 GB data in 40+ countries)
+
+3.3 DEVICE PROTECTION
+- NovaTel Shield Basic: $8/month (covers accidental damage, $99 deductible)
+- NovaTel Shield Plus: $13/month (covers accidental damage + theft/loss, $149 deductible for theft)
+- NovaTel Shield Premium: $18/month (covers all incidents, $49 deductible, includes annual screen repair)
+
+3.4 OTHER ADD-ONS
+- Additional SIM (data share): $10/month per additional SIM
+- NovaTel Cloud 100 GB: $5/month
+- NovaTel Cloud 500 GB: $10/month
+- NovaTel Kids Safety: $7/month (content filtering, location tracking, screen time limits)
+- NovaTel Secure VPN: $5/month (included free with Ultimate plan)
+
+====================================================================
+SECTION 4: FAMILY AND MULTI-LINE DISCOUNTS
+====================================================================
+
+NovaTel offers discounts for multiple lines on the same account:
+- 2 lines: $5 discount per line per month
+- 3 lines: $10 discount per line per month
+- 4 lines: $15 discount per line per month
+- 5+ lines: $20 discount per line per month (maximum 8 lines per account)
+
+Family discount applies to postpaid plans only. Lines can be on different plan tiers. All lines must be under the same account holder. The account holder is responsible for all charges.
+
+Example: A family with 3 lines (Premium + Essential + Starter) would pay:
+- Premium: $75 - $10 = $65
+- Essential: $55 - $10 = $45
+- Starter: $35 - $10 = $25
+- Total: $135/month (saving $30/month)
+
+====================================================================
+SECTION 5: SENIOR AND STUDENT DISCOUNTS
+====================================================================
+
+5.1 SENIOR DISCOUNT (65+)
+- 20% discount on any postpaid plan
+- Must provide valid government-issued ID showing date of birth
+- Applied at point of sale or by calling customer support
+- Cannot be combined with employee discount
+- Can be combined with multi-line discount
+
+5.2 STUDENT DISCOUNT
+- 15% discount on Essential, Premium, or Ultimate plans only
+- Must provide valid student ID from an accredited institution
+- Verified annually (customer receives reminder email 30 days before expiry)
+- Valid for up to 4 years from initial enrollment
+- Cannot be combined with employee discount or senior discount
+- Can be combined with multi-line discount
+
+====================================================================
+SECTION 6: PROMOTIONAL PLANS AND RETENTION OFFERS
+====================================================================
+
+IMPORTANT: Retention offers are NOT to be proactively offered. They may only be presented when a customer explicitly states intent to cancel their service. See the Customer Retention Playbook (separate document) for authorized offers.
+
+Current Authorized Retention Offers (valid through March 31, 2026):
+- R1: 20% discount for 6 months on current plan
+- R2: Free plan upgrade for 3 months (e.g., Essential to Premium)
+- R3: $100 bill credit spread over 4 months ($25/month)
+- R4: Free device protection for 12 months
+- R5: Extra 10 GB data added to plan permanently at no cost
+
+Agents may offer ONE retention offer per interaction. If the customer declines, escalate to the Retention Specialist team. Do NOT stack multiple offers.
+
+====================================================================
+SECTION 7: PLAN CHANGES AND UPGRADES
+====================================================================
+
+7.1 UPGRADE POLICY
+- Customers can upgrade their plan at any time
+- Upgrades take effect immediately
+- Prorated charges apply for the remainder of the billing cycle
+- Data allowance resets upon upgrade
+
+7.2 DOWNGRADE POLICY
+- Customers can downgrade their plan at any time
+- Downgrades take effect at the start of the NEXT billing cycle
+- No prorated credits for the current cycle
+- If customer has device financing that requires a minimum plan tier, 
+  downgrade may not be available until financing is complete
+
+7.3 SWITCHING BETWEEN PREPAID AND POSTPAID
+- Prepaid to Postpaid: Can be done at any time. Remaining prepaid balance 
+  will be applied as a credit to the first postpaid bill. Credit check required.
+- Postpaid to Prepaid: All outstanding balances must be paid. Device financing 
+  must be paid in full. Switch takes effect at next billing cycle.

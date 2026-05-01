@@ -1,0 +1,295 @@
+NOVATEL MOBILE - CUSTOMER ESCALATION PROCEDURES
+Version 1.5 | Effective: January 1, 2026
+Internal Document - Customer Support Reference
+
+====================================================================
+SECTION 1: ESCALATION OVERVIEW
+====================================================================
+
+1.1 PURPOSE
+This document defines when and how customer support agents should 
+escalate customer issues beyond their own authority. Proper escalation 
+ensures customers receive timely resolution while maintaining consistent 
+service standards. Unnecessary escalation creates bottlenecks and delays 
+for all customers.
+
+1.2 ESCALATION PRINCIPLES
+- Always attempt resolution at your level first
+- Document all troubleshooting steps taken before escalating
+- Never promise a specific outcome that is beyond your authority
+- Never tell a customer "there's nothing we can do" — there is always 
+  an escalation path
+- Warm transfers are ALWAYS preferred over cold transfers (stay on the 
+  line to brief the next agent)
+- If a customer asks for a supervisor, acknowledge their frustration 
+  first, attempt resolution, and if they insist, honor the request
+
+====================================================================
+SECTION 2: ESCALATION TIERS
+====================================================================
+
+2.1 TIER 1 - FRONTLINE SUPPORT (You)
+Authority Level:
+- Troubleshoot all standard issues (network, billing, device setup)
+- Apply bill credits up to $50 per interaction
+- Waive one-time fees up to $35 (e.g., SIM card fee, reconnection fee)
+- Waive late payment fee once per 12-month period
+- Process plan changes, add-ons, and feature modifications
+- Process SIM replacements and eSIM activations
+- Reset voicemail PINs and account PINs
+- Enable/disable account features (roaming, hotspot, etc.)
+- Apply authorized promotional offers
+- Apply one retention offer (R1-R5) when customer states intent to cancel
+
+Response Time Commitment: Resolve or escalate within 15 minutes.
+
+2.2 TIER 2 - SENIOR SUPPORT
+When to Escalate to Tier 2:
+- Technical issues not resolved by standard troubleshooting
+- Bill credits needed above $50 but below $200
+- Complex billing disputes requiring account audit
+- Device financing modifications or disputes
+- Coverage complaints requiring network investigation
+- Repeated issues (customer has called 3+ times for same problem)
+- Data usage disputes
+
+How to Escalate:
+- Use the internal transfer tool, select "Tier 2 Senior Support"
+- Include: Customer name, account number, summary of issue, all 
+  troubleshooting steps taken
+- Warm transfer: Stay on the line until Tier 2 agent picks up, 
+  brief them on the situation, then disconnect
+
+Tier 2 Authority:
+- Bill credits up to $200
+- Waive fees up to $100
+- Override plan restrictions with justification
+- Open network investigation tickets (Priority: High)
+- Arrange courtesy device replacements
+- Extend promotional pricing up to 6 months
+
+Response Time: Pick up transferred call within 3 minutes. If queue 
+exceeds 3 minutes, offer callback within 2 hours.
+
+2.3 TIER 3 - SPECIALIST TEAMS
+NovaTel has several specialist teams for specific issue types:
+
+RETENTION TEAM
+When to Escalate:
+- Customer has explicitly stated intent to cancel AND
+- You have offered one authorized retention offer (R1-R5) AND
+- Customer declined the offer and still wishes to cancel
+How to Reach: Transfer code RT-100
+Authority: Up to 50% plan discount for 12 months, device credits up 
+to $500, custom plan creation, port-out save offers
+
+FRAUD & SECURITY TEAM
+When to Escalate:
+- Customer reports unauthorized account access
+- Customer reports unauthorized SIM swap
+- Customer reports unauthorized charges they did not make
+- Suspected identity theft or account takeover
+- Multiple failed verification attempts with suspicious circumstances
+How to Reach: Transfer code FS-200
+Authority: Immediate account freeze, SIM lock, fraud investigation 
+initiation, full charge reversal pending investigation
+IMPORTANT: For suspected fraud, do NOT make any account changes 
+yourself. Transfer to Fraud team immediately.
+Response Time: Must answer within 60 seconds (priority queue).
+
+DATA USAGE REVIEW TEAM
+When to Escalate:
+- Customer disputes data usage shown on their account
+- Customer claims they were throttled incorrectly
+- Unusual data usage patterns (e.g., 40 GB used in one day)
+How to Reach: Transfer code DU-300
+Authority: Data usage audit, session-level data review, plan 
+adjustments based on findings, credits for confirmed billing errors
+
+NETWORK OPERATIONS CENTER (NOC)
+When to Escalate:
+- 911 service failure (MANDATORY - Priority 1)
+- Widespread outage affecting multiple customers
+- Persistent coverage issue after network ticket has been open 7+ days
+- Customer is a Priority Business Account with SLA
+How to Reach: Extension 9911 (for 911 failures), Transfer code NC-400 
+(for other network issues)
+Authority: Dispatch field technicians, tower maintenance scheduling, 
+temporary cell site deployment
+
+DEVICE SUPPORT TEAM
+When to Escalate:
+- Hardware defect assessment
+- Warranty claim processing
+- Complex device compatibility issues
+- Trade-in valuation disputes
+How to Reach: Transfer code DS-500
+Authority: Warranty replacements, trade-in value overrides, device 
+exchange authorization
+
+2.4 TIER 4 - MANAGEMENT ESCALATION
+When to Escalate:
+- Customer has asked for a manager/supervisor by name
+- Issue requires bill credit above $200
+- Legal threats from the customer
+- Media or social media threats ("I'm going to post this online")
+- Regulatory complaint (CCTS complaint filed)
+- Any situation where you believe exceptional authority is needed
+
+How to Escalate:
+- Contact your Team Lead directly via internal chat
+- If Team Lead is unavailable, use Transfer code TL-600
+- For CCTS complaints specifically, use Transfer code CC-700
+
+Management Authority:
+- Bill credits up to $1,000
+- Full account restructuring
+- Service recovery packages
+- Direct correspondence with customer
+- Coordination with Legal team if needed
+
+Response Time: Manager callback within 1 business hour.
+
+====================================================================
+SECTION 3: SERVICE LEVEL AGREEMENTS (SLAs)
+====================================================================
+
+3.1 CUSTOMER-FACING SLAs
+These are commitments NovaTel makes to customers:
+
+General Support:
+- Phone wait time target: Under 5 minutes (measured as Average Speed 
+  of Answer)
+- Chat wait time target: Under 2 minutes
+- Email response time: Within 24 hours (business days)
+- In-store wait time: Under 10 minutes during business hours
+
+Issue Resolution:
+- Billing inquiries: Resolved within first contact (target: 85%)
+- Technical issues: Resolved within first contact (target: 70%)
+- Network trouble tickets: Investigation update within 48 hours
+- Fraud investigations: Preliminary findings within 5 business days
+- CCTS complaints: Response within 30 calendar days (regulatory 
+  requirement)
+
+3.2 INTERNAL SLAs (Between Teams)
+- Tier 1 to Tier 2 transfer: Answered within 3 minutes
+- Tier 2 to Specialist: Answered within 5 minutes
+- Management callback: Within 1 business hour
+- Network trouble ticket update: Every 48 hours until resolved
+- Fraud case resolution: Within 10 business days
+
+====================================================================
+SECTION 4: COMPLAINT HANDLING PROCESS
+====================================================================
+
+4.1 STANDARD COMPLAINT PROCESS
+Step 1: LISTEN - Let the customer explain the full issue without 
+        interruption. Take notes.
+Step 2: ACKNOWLEDGE - Express empathy. Use phrases like:
+        "I understand how frustrating this must be."
+        "I can see why this is concerning."
+        Do NOT say: "I understand" without context, "That's our policy," 
+        or "There's nothing I can do."
+Step 3: INVESTIGATE - Review the account, check previous interactions, 
+        identify the root cause.
+Step 4: RESOLVE - Offer a solution within your authority. If the issue 
+        requires escalation, explain what will happen next.
+Step 5: CONFIRM - Ensure the customer agrees with the resolution. 
+        Summarize what was done and any follow-up actions.
+Step 6: DOCUMENT - Log the full interaction in the CRM including: 
+        issue category, root cause, resolution applied, and any 
+        credits issued.
+
+4.2 HANDLING ANGRY OR ABUSIVE CUSTOMERS
+- Remain calm and professional at all times
+- Do not take personal offense at venting or frustration
+- If a customer uses profanity directed AT you (personal attacks), 
+  you may say: "I want to help resolve this for you, but I need our 
+  conversation to remain respectful. I'm here to find a solution."
+- If personal attacks continue after one warning, you may say: 
+  "I'm going to transfer you to a supervisor who may be better able 
+  to assist." Transfer to Team Lead (TL-600).
+- NEVER hang up on a customer. Always transfer.
+- Document abusive interactions in the CRM with the tag "Conduct Issue"
+
+4.3 CCTS COMPLAINTS
+The Commission for Complaints for Telecom-television Services (CCTS) 
+is Canada's independent telecommunications complaint body.
+
+When a customer mentions CCTS:
+1) Inform the customer that NovaTel takes all complaints seriously and 
+   you'd like the opportunity to resolve it first
+2) If the customer insists on filing with CCTS, provide:
+   - CCTS Website: www.ccts-cprst.ca
+   - CCTS Phone: 1-888-221-1687
+   - CCTS accepts complaints about: billing, contracts, service 
+     delivery, and credit management
+3) If a CCTS complaint has ALREADY been filed (customer has a CCTS 
+   case number), escalate immediately to Transfer code CC-700
+4) Do NOT attempt to resolve a formally filed CCTS complaint yourself
+5) CCTS complaints have a regulatory 30-day response deadline
+
+====================================================================
+SECTION 5: PRIORITY CUSTOMER HANDLING
+====================================================================
+
+5.1 PRIORITY BUSINESS ACCOUNTS
+Customers flagged as "Business Priority" in the CRM have enhanced SLAs:
+- Dedicated support line: 1-800-NOVA-BIZ (1-800-668-2249)
+- Maximum hold time: 2 minutes
+- Issue resolution target: Same business day
+- Assigned Account Manager (check CRM for manager name and contact)
+- If Account Manager is unavailable, treat as Tier 2 escalation
+
+5.2 ACCESSIBILITY REQUIREMENTS
+NovaTel is committed to accessible service:
+- TTY/TDD support available: 1-800-NOVA-TTY (1-800-668-2889)
+- Video relay service supported
+- Large-print bills available on request (no charge)
+- Braille bills available on request (no charge, allow 10 business 
+  days for processing)
+- Alternative format contracts available on request
+- Agents must allow additional time for customers using accessibility 
+  services — do NOT rush these interactions
+
+5.3 VULNERABLE CUSTOMER POLICY
+If you identify that a customer may be in a vulnerable situation 
+(elderly, disability, financial hardship, language barrier, domestic 
+violence situation):
+- Take extra time and patience
+- Offer to repeat information or explain in simpler terms
+- For financial hardship: Offer payment arrangement (up to 3-month 
+  payment plan with no interest, within your authority)
+- For language barriers: Use the NovaTel Language Line (dial ext. 8888 
+  for interpreter services in 150+ languages)
+- For suspected domestic violence or elder abuse situations: 
+  Do NOT ask probing questions. Offer to provide the customer with 
+  contact information for local support services if they request it. 
+  Do not make notes about suspected abuse in the main account — use 
+  the confidential notes section.
+
+====================================================================
+SECTION 6: DOCUMENTATION REQUIREMENTS
+====================================================================
+
+6.1 EVERY INTERACTION MUST INCLUDE IN CRM:
+- Date and time
+- Customer name and account number
+- Contact channel (phone, chat, email, in-store)
+- Issue category (select from dropdown)
+- Detailed description of the issue
+- All troubleshooting steps attempted
+- Resolution applied
+- Any credits or adjustments made (amount and reason)
+- Follow-up required (yes/no, with details)
+- Customer sentiment (satisfied, neutral, dissatisfied)
+
+6.2 WHEN ESCALATING, ADDITIONALLY DOCUMENT:
+- Reason for escalation
+- Team escalated to and transfer code used
+- Whether warm or cold transfer
+- Any commitments made to the customer about resolution timeline
+
+Failure to properly document interactions is a performance issue and 
+will be addressed in quality reviews.

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "cls_01",
+        "message": "I was double charged on my last bill. I want a refund.",
+        "expected_intent": "billing",
+        "expected_priority_min": "medium",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_02",
+        "message": "My phone can't connect to the internet at all.",
+        "expected_intent": "technical_support",
+        "expected_priority_min": "medium",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_03",
+        "message": "I want to cancel my service effective today.",
+        "expected_intent": "cancellation",
+        "expected_priority_min": "medium",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_04",
+        "message": "Can I upgrade from Starter to Premium plan?",
+        "expected_intent": "plan_change",
+        "expected_priority_min": "low",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_05",
+        "message": "What prepaid plans do you offer?",
+        "expected_intent": "general_inquiry",
+        "expected_priority_min": "low",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_06",
+        "message": "This is the fifth time calling about the same issue. I'm filing a CCTS complaint.",
+        "expected_intent": "complaint",
+        "expected_priority_min": "high",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_07",
+        "message": "Someone changed my account password without my permission. I think my account has been hacked.",
+        "expected_intent": "complaint",
+        "expected_priority_min": "urgent",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_08",
+        "message": "I need to add a second line for my wife. She wants the Essential plan.",
+        "expected_intent": "plan_change",
+        "expected_priority_min": "low",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_09",
+        "message": "My voicemail isn't working. When people call me it just rings and never goes to voicemail.",
+        "expected_intent": "technical_support",
+        "expected_priority_min": "low",
+        "category": "accuracy"
+    },
+    {
+        "id": "cls_10",
+        "message": "I want to switch from postpaid to prepaid. What do I need to do?",
+        "expected_intent": "plan_change",
+        "expected_priority_min": "low",
+        "category": "accuracy"
+    }
+]

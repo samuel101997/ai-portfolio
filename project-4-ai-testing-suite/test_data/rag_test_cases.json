@@ -1,0 +1,72 @@
+[
+    {
+        "id": "rag_01",
+        "question": "How much does the Premium plan cost?",
+        "expected_keywords": ["$75", "75/month"],
+        "expected_source": "novatel_mobile_plans_guide",
+        "category": "accuracy"
+    },
+    {
+        "id": "rag_02",
+        "question": "What is the late payment fee?",
+        "expected_keywords": ["$10"],
+        "expected_source": "novatel_billing_account_policies",
+        "category": "accuracy"
+    },
+    {
+        "id": "rag_03",
+        "question": "What are the APN settings for NovaTel?",
+        "expected_keywords": ["novatel.data", "8080", "302", "880"],
+        "expected_source": "novatel_troubleshooting_handbook",
+        "category": "accuracy"
+    },
+    {
+        "id": "rag_04",
+        "question": "How many GB of hotspot does the Ultimate plan include?",
+        "expected_keywords": ["30"],
+        "expected_source": "novatel_mobile_plans_guide",
+        "category": "accuracy"
+    },
+    {
+        "id": "rag_05",
+        "question": "What is the reconnection fee after suspension?",
+        "expected_keywords": ["$35", "35"],
+        "expected_source": "novatel_billing_account_policies",
+        "category": "accuracy"
+    },
+    {
+        "id": "rag_06",
+        "question": "What is the transfer code for the Fraud team?",
+        "expected_keywords": ["FS-200"],
+        "expected_source": "novatel_escalation_procedures",
+        "category": "accuracy"
+    },
+    {
+        "id": "rag_07",
+        "question": "What is NovaTel's policy on selling laptops?",
+        "expected_keywords": ["don't have enough information", "not", "no information"],
+        "expected_source": null,
+        "category": "hallucination"
+    },
+    {
+        "id": "rag_08",
+        "question": "Does NovaTel offer satellite internet service?",
+        "expected_keywords": ["don't have enough information", "not", "no information"],
+        "expected_source": null,
+        "category": "hallucination"
+    },
+    {
+        "id": "rag_09",
+        "question": "What is NovaTel's home security system pricing?",
+        "expected_keywords": ["don't have enough information", "not", "no information"],
+        "expected_source": null,
+        "category": "hallucination"
+    },
+    {
+        "id": "rag_10",
+        "question": "How much does the family discount save for 3 lines?",
+        "expected_keywords": ["$30", "30/month", "$10 discount per line"],
+        "expected_source": "novatel_mobile_plans_guide",
+        "category": "accuracy"
+    }
+]

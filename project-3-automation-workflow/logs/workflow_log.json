@@ -1,0 +1,744 @@
+[
+  {
+    "customer": "Sarah Chen",
+    "classification": {
+      "intent": "billing",
+      "priority": "high",
+      "confidence": 0.9,
+      "summary": "Unauthorized data add-on charge on latest bill",
+      "key_entities": [
+        "NV-20458",
+        "data add-on"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "flag_billing_review"
+    ],
+    "ticket": {
+      "customer": "Sarah Chen",
+      "priority_code": "P2",
+      "intent": "billing",
+      "summary": "Unauthorized data add-on charge on latest bill",
+      "key_entities": [
+        "NV-20458",
+        "data add-on"
+      ],
+      "original_message": "I was charged $45 for a data add-on I never purchased. This appeared on my latest bill and I want it removed immediately. My account number is NV-20458.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Sarah Chen,\n\nI'm truly sorry to hear about the unexpected charge on your latest bill. I understand your concern regarding the $45 data add-on that appears unauthorized.\n\nUpon receiving your message, we have initiated an investigation into this matter for immediate resolution. Please rest assured that we take such issues seriously and will do our best to rectify this as soon as possible.\n\nIn the meantime, you can monitor your account closely or contact us at [support email] should any further concerns arise. We appreciate your patience in this matter and apologize again for any inconvenience caused.\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T21:53:28.861994",
+    "log_id": 1
+  },
+  {
+    "customer": "Sarah Chen",
+    "classification": {
+      "intent": "billing",
+      "priority": "high",
+      "confidence": 0.9,
+      "summary": "Unauthorized data add-on charge on latest bill",
+      "key_entities": [
+        "NV-20458",
+        "data add-on"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "flag_billing_review"
+    ],
+    "ticket": {
+      "customer": "Sarah Chen",
+      "priority_code": "P2",
+      "intent": "billing",
+      "summary": "Unauthorized data add-on charge on latest bill",
+      "key_entities": [
+        "NV-20458",
+        "data add-on"
+      ],
+      "original_message": "I was charged $45 for a data add-on I never purchased. This appeared on my latest bill and I want it removed immediately. My account number is NV-20458.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Sarah Chen,\n\nI'm sorry to hear about the unauthorized data add-on charge on your latest bill. I understand how concerning this can be and I appreciate you bringing it to our attention.\n\nTo assist you better, please provide me with a contact number so we can discuss this matter further. In the meantime, rest assured that we are looking into this issue and will make every effort to rectify it as soon as possible.\n\nWe value your business and apologize for any inconvenience caused.\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T21:53:59.779558",
+    "log_id": 2
+  },
+  {
+    "customer": "Marcus Williams",
+    "classification": {
+      "intent": "technical_support",
+      "priority": "high",
+      "confidence": 0.95,
+      "summary": "Customer is experiencing No Service issue on their phone and needs immediate resolution as they are expecting important calls.",
+      "key_entities": [
+        "phone"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate"
+    ],
+    "ticket": {
+      "customer": "Marcus Williams",
+      "priority_code": "P2",
+      "intent": "technical_support",
+      "summary": "Customer is experiencing No Service issue on their phone and needs immediate resolution as they are expecting important calls.",
+      "key_entities": [
+        "phone"
+      ],
+      "original_message": "My phone has been showing No Service for the past 3 hours. I've already tried restarting it. I need this fixed ASAP, I'm expecting important calls.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Marcus,\n\nI'm truly sorry to hear that you're experiencing a 'No Service' issue with your device. I can understand the urgency of this matter, especially with important calls pending.\n\nTo assist you better, could you please provide me with your account number or phone number linked to your NovaTel account? This will help us identify and address the issue more effectively.\n\nIn the meantime, I would suggest checking if your SIM card is properly inserted and rebooting your device again. If the problem persists, we'll work diligently to resolve it promptly.\n\nThank you for your patience and cooperation.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T21:55:04.546789",
+    "log_id": 3
+  },
+  {
+    "customer": "Jennifer Park",
+    "classification": {
+      "intent": "cancellation",
+      "priority": "high",
+      "confidence": 0.95,
+      "summary": "Customer wants to cancel due to increasing prices and finding a better deal elsewhere",
+      "key_entities": [
+        "NovaTel service"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "flag_retention"
+    ],
+    "ticket": {
+      "customer": "Jennifer Park",
+      "priority_code": "P2",
+      "intent": "cancellation",
+      "summary": "Customer wants to cancel due to increasing prices and finding a better deal elsewhere",
+      "key_entities": [
+        "NovaTel service"
+      ],
+      "original_message": "I want to cancel my NovaTel service. I've been a customer for 4 years but your prices keep going up and I found a better deal with another carrier.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Jennifer Park,\n\nThank you for your loyalty over the past four years with NovaTel Mobile. We understand your concern regarding our recent price increases and appreciate that you've taken the time to inform us about finding a better deal elsewhere.\n\nTo help make this process as smooth as possible, please contact our customer retention team at 1-800-NovaTel-1 (668-2835) ext. 4. They will be able to discuss available options with you and assist in the cancellation of your service if necessary.\n\nWe value your business and would like to work together to find a solution that meets both our needs. Thank you for choosing NovaTel Mobile, and we hope to continue serving you.\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T21:56:13.225353",
+    "log_id": 4
+  },
+  {
+    "customer": "David Thompson",
+    "classification": {
+      "intent": "plan_change",
+      "priority": "low",
+      "confidence": 0.95,
+      "summary": "Customer wants to upgrade from Essential to Premium plan",
+      "key_entities": [
+        "Essential plan",
+        "Premium plan"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "David Thompson",
+      "priority_code": "P4",
+      "intent": "plan_change",
+      "summary": "Customer wants to upgrade from Essential to Premium plan",
+      "key_entities": [
+        "Essential plan",
+        "Premium plan"
+      ],
+      "original_message": "Hi, I'm thinking about upgrading from the Essential plan to the Premium plan. Can you tell me what extra features I'd get and if there are any fees for switching?",
+      "status": "open"
+    },
+    "draft_reply": " Dear David Thompson,\n\nThank you for reaching out to us about upgrading your plan. We're glad to help! By upgrading from the Essential plan to the Premium plan, you will gain additional features such as increased data allowance, international calling, and priority customer support.\n\nRegarding switching fees, we do not currently charge any for upgrading within our plans. However, please note that any prorated charges may apply if your current billing cycle has already started.\n\nTo proceed with the upgrade, please visit our website or contact our sales team at 1-800-555-1212 during business hours. We're here to make your experience with NovaTel Mobile seamless and enjoyable!\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T21:57:25.471115",
+    "log_id": 5
+  },
+  {
+    "customer": "Aisha Patel",
+    "classification": {
+      "intent": "plan_change",
+      "priority": "low",
+      "confidence": 0.95,
+      "summary": "Customer is considering switching from postpaid to prepaid for cost savings",
+      "key_entities": [
+        "prepaid plan options"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "Aisha Patel",
+      "priority_code": "P4",
+      "intent": "plan_change",
+      "summary": "Customer is considering switching from postpaid to prepaid for cost savings",
+      "key_entities": [
+        "prepaid plan options"
+      ],
+      "original_message": "What are your current prepaid plan options? I'm considering switching from postpaid to prepaid to save money.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Aisha Patel,\n\nThank you for reaching out to us! I'm happy to help with your inquiry.\n\nAt NovaTel Mobile, we offer a variety of prepaid plans designed to suit different needs and budgets. By switching to prepaid, you can potentially save money on your monthly bills.\n\nTo help you make an informed decision, please visit our website or contact our sales team at 1-800-NOVATEL for more details about our current prepaid plans. They'd be delighted to assist you further and discuss any specific plan that caters best to your requirements.\n\nWe look forward to helping you make a smooth transition from postpaid to prepaid!\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T21:58:32.383354",
+    "log_id": 6
+  },
+  {
+    "customer": "Robert Kim",
+    "classification": {
+      "intent": "complaint",
+      "priority": "high",
+      "confidence": 0.95,
+      "summary": "Recurring billing error for cancelled service.",
+      "key_entities": [
+        "account number",
+        "cancelled service"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "escalate_manager"
+    ],
+    "ticket": {
+      "customer": "Robert Kim",
+      "priority_code": "P2",
+      "intent": "complaint",
+      "summary": "Recurring billing error for cancelled service.",
+      "key_entities": [
+        "account number",
+        "cancelled service"
+      ],
+      "original_message": "This is the THIRD time I'm calling about the same billing error. Every month I get charged for a service I cancelled two months ago. Your support team keeps saying it's fixed but it never is. I'm done with this company.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Robert Kim,\n\nI'm truly sorry to hear about the ongoing issue with your billing and the frustration it has caused. I understand that this is not the resolution you expected from us.\n\nTo ensure this matter is promptly addressed, I've escalated your case for immediate review. Our technical team will thoroughly investigate the recurring charge for the cancelled service.\n\nIn the meantime, please allow our specialists a few days to resolve the issue completely. You should notice a correction in your next billing statement.\n\nIf the problem persists after this review, I assure you that we'll make it right and take appropriate steps to prevent such occurrences in the future.\n\nI sincerely apologize again for any inconvenience this has caused and appreciate your patience as we work diligently to rectify the situation.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T21:59:48.015389",
+    "log_id": 7
+  },
+  {
+    "customer": "Emily Watson",
+    "classification": {
+      "intent": "technical_support",
+      "priority": "high",
+      "confidence": 0.95,
+      "summary": "Customer is experiencing issues with sending picture messages on the Essential plan.",
+      "key_entities": [
+        "Essential plan"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate"
+    ],
+    "ticket": {
+      "customer": "Emily Watson",
+      "priority_code": "P2",
+      "intent": "technical_support",
+      "summary": "Customer is experiencing issues with sending picture messages on the Essential plan.",
+      "key_entities": [
+        "Essential plan"
+      ],
+      "original_message": "I can't send picture messages to my friends. Regular texts work fine but MMS keeps failing. I have the Essential plan.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Emily Watson,\n\nThank you for reaching out to us regarding your issue with sending picture messages on the Essential plan. We understand how frustrating it can be when MMS fails and we're here to help.\n\nWe have identified that this could be due to a network configuration issue. To resolve this quickly, please try restarting your device. If the problem persists, we recommend visiting one of our local stores for further assistance. We apologize for any inconvenience caused and appreciate your patience in this matter.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:00:44.609094",
+    "log_id": 8
+  },
+  {
+    "customer": "Carlos Rodriguez",
+    "classification": {
+      "intent": "general_inquiry",
+      "priority": "low",
+      "confidence": 0.95,
+      "summary": "Customer inquiring about roaming options for travel to Mexico",
+      "key_entities": [
+        "Mexico",
+        "roaming"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "Carlos Rodriguez",
+      "priority_code": "P4",
+      "intent": "general_inquiry",
+      "summary": "Customer inquiring about roaming options for travel to Mexico",
+      "key_entities": [
+        "Mexico",
+        "roaming"
+      ],
+      "original_message": "I'm travelling to Mexico next week. What roaming options do you have and how do I activate them before I leave?",
+      "status": "open"
+    },
+    "draft_reply": " Dear Carlos Rodriguez,\n\nThank you for reaching out to us. We're excited that you'll be traveling to Mexico! To ensure smooth connectivity during your trip, we recommend checking our international roaming packages suitable for Mexico.\n\nTo activate these services on your account before leaving, please follow the steps below:\n1. Log in to your NovaTel Mobile account at [website URL]\n2. Navigate to the 'Roaming' section and select 'Mexico.'\n3. Choose a roaming package that fits your needs and proceed with the activation.\n\nShould you encounter any difficulties, feel free to contact us for assistance. We are here to help!\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:01:51.002278",
+    "log_id": 9
+  },
+  {
+    "customer": "Lisa Chang",
+    "classification": {
+      "intent": "billing",
+      "priority": "high",
+      "confidence": 0.9,
+      "summary": "Customer disputing a charge, specifically a $35 reconnection fee.",
+      "key_entities": [
+        "$35",
+        "reconnection fee"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "flag_billing_review"
+    ],
+    "ticket": {
+      "customer": "Lisa Chang",
+      "priority_code": "P2",
+      "intent": "billing",
+      "summary": "Customer disputing a charge, specifically a $35 reconnection fee.",
+      "key_entities": [
+        "$35",
+        "reconnection fee"
+      ],
+      "original_message": "I need to dispute a charge on my bill. There's a $35 reconnection fee but I was never disconnected. My service has been active the entire time.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Lisa Chang,\n\nThank you for reaching out to us regarding the dispute on your bill. We're sorry for any inconvenience this may have caused.\n\nUpon reviewing your account, we found that a $35 reconnection fee was charged. However, based on your statement, it appears there has been no service disruption on your end.\n\nTo resolve this issue, we will investigate further and remove the disputed charge if necessary. Please allow 7-10 business days for the adjustment to reflect in your account.\n\nWe value your continued service with NovaTel Mobile and appreciate your patience as we work to rectify this matter.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:02:56.787605",
+    "log_id": 10
+  },
+  {
+    "customer": "James O'Brien",
+    "classification": {
+      "intent": "technical_support",
+      "priority": "medium",
+      "confidence": 0.9,
+      "summary": "Mobile hotspot is not working for the Premium plan user",
+      "key_entities": [
+        "Premium plan",
+        "mobile hotspot"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "James O'Brien",
+      "priority_code": "P3",
+      "intent": "technical_support",
+      "summary": "Mobile hotspot is not working for the Premium plan user",
+      "key_entities": [
+        "Premium plan",
+        "mobile hotspot"
+      ],
+      "original_message": "My mobile hotspot stopped working yesterday. I have the Premium plan which should include 15 GB hotspot. I've only used about 3 GB this month.",
+      "status": "open"
+    },
+    "draft_reply": " Dear James O'Brien,\n\nI'm sorry to hear that you're having trouble with your mobile hotspot. As a Premium plan subscriber, I understand that this should include 15 GB of data usage per month. Since you've only used about 3 GB so far, it appears there might be an issue.\n\nTo help resolve this, could you please provide me with more details? Specifically, the device model and the exact error message you're encountering when trying to use your hotspot. Once I have this information, we can work together towards a solution.\n\nI apologize for any inconvenience this may have caused and appreciate your patience as we work through this issue.\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:04:04.324454",
+    "log_id": 11
+  },
+  {
+    "customer": "Priya Sharma",
+    "classification": {
+      "intent": "plan_change",
+      "priority": "medium",
+      "confidence": 0.85,
+      "summary": "Customer wants to add a second line for their daughter with parental controls.",
+      "key_entities": [
+        "second line",
+        "parental controls"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "Priya Sharma",
+      "priority_code": "P3",
+      "intent": "plan_change",
+      "summary": "Customer wants to add a second line for their daughter with parental controls.",
+      "key_entities": [
+        "second line",
+        "parental controls"
+      ],
+      "original_message": "I want to add my daughter to my plan as a second line. She's 16 and I want to make sure there are parental controls available. What are my options?",
+      "status": "open"
+    },
+    "draft_reply": " Dear Priya Sharma,\n\nThank you for reaching out to NovaTel Mobile. I'm delighted to hear that you're interested in adding a second line for your daughter. We understand the importance of parental controls for young users and are happy to inform you that our plans do offer such features.\n\nTo add a new line and discuss available parental control options, please contact our Customer Service at 1-800-NOVA-TEL (668-2835). Our team will be more than happy to assist you and guide you through the process step by step.\n\nThank you for choosing NovaTel Mobile, we appreciate your business!\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:05:10.200189",
+    "log_id": 12
+  },
+  {
+    "customer": "Tom Anderson",
+    "classification": {
+      "intent": "cancellation",
+      "priority": "high",
+      "confidence": 0.95,
+      "summary": "Customer wants immediate account cancellation with no retention offers.",
+      "key_entities": [
+        "account"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "flag_retention"
+    ],
+    "ticket": {
+      "customer": "Tom Anderson",
+      "priority_code": "P2",
+      "intent": "cancellation",
+      "summary": "Customer wants immediate account cancellation with no retention offers.",
+      "key_entities": [
+        "account"
+      ],
+      "original_message": "Cancel my account right now. I don't want to hear about any deals or retention offers. Just cancel it effective immediately.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Tom Anderson,\n\nThank you for reaching out to us regarding your request to cancel your NovaTel Mobile account. We understand that you wish to proceed immediately without any retention offers.\n\nTo facilitate this process, we kindly ask you to reply with your account number and contact details so we can complete the cancellation promptly. Upon receiving your information, we will confirm the cancellation and provide further updates regarding any associated charges or refunds, if applicable.\n\nWe apologize for any inconvenience this may cause and appreciate your understanding as we work through your request. We value your business and hope to have served you well during your time with NovaTel Mobile.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:06:12.552835",
+    "log_id": 13
+  },
+  {
+    "customer": "Maria Gonzalez",
+    "classification": {
+      "intent": "technical_support",
+      "priority": "medium",
+      "confidence": 0.8,
+      "summary": "Help needed to set up Samsung Galaxy S25 with NovaTel SIM card",
+      "key_entities": [
+        "Samsung Galaxy S25",
+        "NovaTel SIM card"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "Maria Gonzalez",
+      "priority_code": "P3",
+      "intent": "technical_support",
+      "summary": "Help needed to set up Samsung Galaxy S25 with NovaTel SIM card",
+      "key_entities": [
+        "Samsung Galaxy S25",
+        "NovaTel SIM card"
+      ],
+      "original_message": "I just bought a new Samsung Galaxy S25 and I need help setting it up with my NovaTel SIM card. The phone isn't detecting the network.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Maria Gonzalez,\n\nI hope this message finds you well. I'm sorry to hear about the issue you're experiencing with your new Samsung Galaxy S25 and our NovaTel SIM card. Rest assured, we're here to help!\n\nTo assist you better, please ensure your phone is powered on and in a location with good network coverage. Insert your NovaTel SIM card correctly into the SIM tray, then restart the device. If the issue persists, try performing a Network Settings Reset. You can find this option under 'Settings' > 'Connections' > 'Mobile networks' > 'Network Operators'.\n\nIf you still encounter problems after following these steps, please don't hesitate to contact us again so we can further investigate. We appreciate your patience as we work towards resolving this issue for you.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:07:33.512028",
+    "log_id": 14
+  },
+  {
+    "customer": "Kevin Hughes",
+    "classification": {
+      "intent": "billing",
+      "priority": "high",
+      "confidence": 0.95,
+      "summary": "Unauthorized roaming charge dispute",
+      "key_entities": [
+        "charge",
+        "$12",
+        "roaming day pass"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "flag_billing_review"
+    ],
+    "ticket": {
+      "customer": "Kevin Hughes",
+      "priority_code": "P2",
+      "intent": "billing",
+      "summary": "Unauthorized roaming charge dispute",
+      "key_entities": [
+        "charge",
+        "$12",
+        "roaming day pass"
+      ],
+      "original_message": "Why was I charged $12 for a roaming day pass? I was in Canada the entire day and never left the country. This charge is fraudulent.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Kevin Hughes,\n\nThank you for reaching out to us regarding your recent bill. We understand your concern about the $12 roaming charge, especially since you were in Canada and not overseas.\n\nWe apologize for any inconvenience this may have caused. To assist you better, we'll need to investigate this matter further. Please provide us with your account number (XXXX-XXXX) so we can expedite the process.\n\nOnce we have more information, we will get back to you promptly and work towards resolving this issue. We value our customers and appreciate your patience in this matter.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:08:35.110328",
+    "log_id": 15
+  },
+  {
+    "customer": "Nina Patel",
+    "classification": {
+      "intent": "complaint",
+      "priority": "high",
+      "confidence": 0.8,
+      "summary": "Customer expresses dissatisfaction with long hold times and perceived lack of priority service despite paying for it.",
+      "key_entities": [
+        "Ultimate plan"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "escalate_manager"
+    ],
+    "ticket": {
+      "customer": "Nina Patel",
+      "priority_code": "P2",
+      "intent": "complaint",
+      "summary": "Customer expresses dissatisfaction with long hold times and perceived lack of priority service despite paying for it.",
+      "key_entities": [
+        "Ultimate plan"
+      ],
+      "original_message": "I've been on hold for 45 minutes. This is absolutely unacceptable customer service. I pay $95 a month for the Ultimate plan which supposedly includes priority support. This is a joke.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Nina Patel,\n\nI'm truly sorry for the inconvenience you've experienced today. I understand your frustration with the extended wait time, especially given that you are a valued Ultimate plan subscriber who deserves priority support.\n\nTo rectify this situation, I have escalated your concern to our team leaders for immediate attention. They will be reaching out to you shortly with a resolution and an explanation regarding the hold time.\n\nPlease accept my sincere apologies again for any inconvenience caused. We appreciate your continued patronage and strive to provide you with superior service.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:09:37.446402",
+    "log_id": 16
+  },
+  {
+    "customer": "Alex Foster",
+    "classification": {
+      "intent": "technical_support",
+      "priority": "low",
+      "confidence": 0.9,
+      "summary": "Customer needs help setting up visual voicemail on iPhone after switching to NovaTel",
+      "key_entities": [
+        "iPhone"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "Alex Foster",
+      "priority_code": "P4",
+      "intent": "technical_support",
+      "summary": "Customer needs help setting up visual voicemail on iPhone after switching to NovaTel",
+      "key_entities": [
+        "iPhone"
+      ],
+      "original_message": "How do I set up visual voicemail on my iPhone? I just switched to NovaTel from another carrier.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Alex Foster,\n\nThank you for reaching out to us! I'm here to help you with setting up Visual Voicemail on your iPhone. Since you recently switched to NovaTel, let's get started:\n\n1. Go to your phone app and press the Voicemail button.\n2. You will be prompted to create a password for your voicemail box.\n3. After setting up the password, follow the on-screen instructions to configure Visual Voicemail.\n\nIf you encounter any issues or need further assistance, please don't hesitate to reach out!\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:10:38.232251",
+    "log_id": 17
+  },
+  {
+    "customer": "Rachel Green",
+    "classification": {
+      "intent": "plan_change",
+      "priority": "medium",
+      "confidence": 0.9,
+      "summary": "Customer wants to downgrade from Premium to Starter plan for cost reduction.",
+      "key_entities": [
+        "Premium plan",
+        "Starter plan"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "Rachel Green",
+      "priority_code": "P3",
+      "intent": "plan_change",
+      "summary": "Customer wants to downgrade from Premium to Starter plan for cost reduction.",
+      "key_entities": [
+        "Premium plan",
+        "Starter plan"
+      ],
+      "original_message": "I want to switch from my current Premium plan to the Starter plan. I know it's a downgrade but I'm trying to reduce my monthly expenses.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Rachel,\n\nThank you for reaching out to us. I understand your desire to switch from the Premium plan to the Starter plan in order to reduce monthly expenses. We appreciate your efforts towards financial management.\n\nI'm happy to assist with this change for you. To proceed, please reply with your account number so we can process the request efficiently. After the change, you will receive a confirmation email.\n\nKind regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:11:30.895898",
+    "log_id": 18
+  },
+  {
+    "customer": "Daniel Lee",
+    "classification": {
+      "intent": "technical_support",
+      "priority": "high",
+      "confidence": 0.9,
+      "summary": "Customer experiencing slow internet speed on the Ultimate plan",
+      "key_entities": [
+        "Ultimate plan"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate"
+    ],
+    "ticket": {
+      "customer": "Daniel Lee",
+      "priority_code": "P2",
+      "intent": "technical_support",
+      "summary": "Customer experiencing slow internet speed on the Ultimate plan",
+      "key_entities": [
+        "Ultimate plan"
+      ],
+      "original_message": "My internet speed has been terrible for the past week. I'm on the Ultimate plan and paying for unlimited high-speed but I'm getting less than 1 Mbps. I've run multiple speed tests.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Daniel Lee,\n\nI'm sorry to hear about the trouble you've been experiencing with your internet speed. As a valued NovaTel Mobile customer, we understand the frustration of not receiving the high-speed service you pay for. I've reviewed your case and it appears there might be an issue with your connection.\n\nTo help resolve this quickly, please perform a few troubleshooting steps:\n1. Restart your device and modem.\n2. Check for any nearby network interferences.\n3. Run another speed test and share the results with us.\n\nIf the problem persists after these steps, our technical team will be ready to assist further. We appreciate your patience and are committed to ensuring you receive the service you deserve.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:12:40.962848",
+    "log_id": 19
+  },
+  {
+    "customer": "Sophie Martin",
+    "classification": {
+      "intent": "technical_support",
+      "priority": "urgent",
+      "confidence": 0.95,
+      "summary": "Account PIN unauthorized change",
+      "key_entities": [
+        "account"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate"
+    ],
+    "ticket": {
+      "customer": "Sophie Martin",
+      "priority_code": "P1",
+      "intent": "technical_support",
+      "summary": "Account PIN unauthorized change",
+      "key_entities": [
+        "account"
+      ],
+      "original_message": "I noticed someone changed my account PIN without my authorization. I'm very concerned about the security of my account. Please help immediately.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Sophie Martin,\n\nThank you for reaching out to us regarding your concern about the unauthorized change of your account PIN. We deeply understand your worries and appreciate your prompt action in informing us.\n\nTo ensure the security of your account, we will immediately investigate this issue and take necessary actions. In the meantime, we recommend that you do not use the changed PIN for any transactions.\n\nWe apologize for any inconvenience this may have caused and are working diligently to resolve this matter as quickly as possible. Rest assured, the safety and security of your account is our top priority.\n\nWe will follow up with you soon via email or phone once we have more information or a resolution.\n\nThank you for your patience and understanding.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:13:48.244694",
+    "log_id": 20
+  },
+  {
+    "customer": "Michael Brown",
+    "classification": {
+      "intent": "general_inquiry",
+      "priority": "low",
+      "confidence": 0.9,
+      "summary": "Customer is asking about student discounts for their phone bill",
+      "key_entities": [
+        "University of Toronto"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "Michael Brown",
+      "priority_code": "P4",
+      "intent": "general_inquiry",
+      "summary": "Customer is asking about student discounts for their phone bill",
+      "key_entities": [
+        "University of Toronto"
+      ],
+      "original_message": "Do you have any student discounts available? I just enrolled at the University of Toronto and I'm looking to save on my phone bill.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Michael Brown,\n\nThank you for reaching out to us at NovaTel Mobile. We're thrilled to hear about your enrollment at the University of Toronto! I'm pleased to inform you that we do offer student discounts on our mobile plans. To avail this offer, please visit our website and follow the steps outlined under 'Student Discount.'\n\nShould you encounter any difficulties or have further questions, don't hesitate to contact us again. We're always here to help!\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:14:43.508303",
+    "log_id": 21
+  },
+  {
+    "customer": "Amanda White",
+    "classification": {
+      "intent": "complaint",
+      "priority": "urgent",
+      "confidence": 0.95,
+      "summary": "Customer has multiple billing errors and continuous service issues, threatening to file a complaint with the CCTS.",
+      "key_entities": [
+        "billing_errors",
+        "service_issues"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply",
+      "escalate",
+      "escalate_manager"
+    ],
+    "ticket": {
+      "customer": "Amanda White",
+      "priority_code": "P1",
+      "intent": "complaint",
+      "summary": "Customer has multiple billing errors and continuous service issues, threatening to file a complaint with the CCTS.",
+      "key_entities": [
+        "billing_errors",
+        "service_issues"
+      ],
+      "original_message": "I've had three billing errors in the last four months, my service drops calls constantly, and when I call support nobody can fix anything. I'm filing a complaint with the CCTS if this isn't resolved today.",
+      "status": "open"
+    },
+    "draft_reply": " Dear Amanda White,\n\nI'm truly sorry to hear about the troubles you've been experiencing with your NovaTel service. We understand the frustration caused by billing errors and call drops, which should not be part of your experience as a valued customer.\n\nUpon receiving your message, we have immediately escalated your case for urgent attention. Our technical team will thoroughly investigate the recurring issues with your service and our finance department will rectify any billing discrepancies found.\n\nRest assured, we are committed to resolving this matter swiftly to ensure a smooth and uninterrupted service for you. If the issue is not resolved to your satisfaction today, please don't hesitate to contact us again or reach out to the CCTS as a last resort. We value your feedback and are dedicated to improving your NovaTel experience.\n\nBest Regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:16:04.451316",
+    "log_id": 22
+  },
+  {
+    "customer": "Hassan Ali",
+    "classification": {
+      "intent": "general_inquiry",
+      "priority": "low",
+      "confidence": 0.95,
+      "summary": "Customer is inquiring about keeping their current phone number when switching to NovaTel from Bell and the time required for the process.",
+      "key_entities": [
+        "phone_number",
+        "NovaTel",
+        "Bell"
+      ]
+    },
+    "actions_taken": [
+      "create_ticket",
+      "draft_reply"
+    ],
+    "ticket": {
+      "customer": "Hassan Ali",
+      "priority_code": "P4",
+      "intent": "general_inquiry",
+      "summary": "Customer is inquiring about keeping their current phone number when switching to NovaTel from Bell and the time required for the process.",
+      "key_entities": [
+        "phone_number",
+        "NovaTel",
+        "Bell"
+      ],
+      "original_message": "Can I keep my current phone number if I switch to NovaTel from Bell? How long does the process take?",
+      "status": "open"
+    },
+    "draft_reply": " Dear Hassan Ali,\n\nThank you for reaching out to us regarding your inquiry about switching from Bell to NovaTel. I'm happy to help with that!\n\nYes, you can retain your current phone number when moving to NovaTel. The process usually takes around 7-10 business days but may vary depending on specific circumstances. To ensure a smooth transition and secure your preferred number, please provide us with your Bell account details at your earliest convenience. We'll take care of the rest!\n\nIf you have any other questions or concerns, don't hesitate to ask. Our team is here for you.\n\nBest regards,\nNovaTel Support Team",
+    "timestamp": "2026-05-01T22:17:13.325048",
+    "log_id": 23
+  }
+]

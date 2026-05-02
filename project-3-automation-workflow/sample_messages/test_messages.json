@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "customer": "Sarah Chen",
+        "message": "I was charged $45 for a data add-on I never purchased. This appeared on my latest bill and I want it removed immediately. My account number is NV-20458."
+    },
+    {
+        "id": 2,
+        "customer": "Marcus Williams",
+        "message": "My phone has been showing No Service for the past 3 hours. I've already tried restarting it. I need this fixed ASAP, I'm expecting important calls."
+    },
+    {
+        "id": 3,
+        "customer": "Jennifer Park",
+        "message": "I want to cancel my NovaTel service. I've been a customer for 4 years but your prices keep going up and I found a better deal with another carrier."
+    },
+    {
+        "id": 4,
+        "customer": "David Thompson",
+        "message": "Hi, I'm thinking about upgrading from the Essential plan to the Premium plan. Can you tell me what extra features I'd get and if there are any fees for switching?"
+    },
+    {
+        "id": 5,
+        "customer": "Aisha Patel",
+        "message": "What are your current prepaid plan options? I'm considering switching from postpaid to prepaid to save money."
+    },
+    {
+        "id": 6,
+        "customer": "Robert Kim",
+        "message": "This is the THIRD time I'm calling about the same billing error. Every month I get charged for a service I cancelled two months ago. Your support team keeps saying it's fixed but it never is. I'm done with this company."
+    },
+    {
+        "id": 7,
+        "customer": "Emily Watson",
+        "message": "I can't send picture messages to my friends. Regular texts work fine but MMS keeps failing. I have the Essential plan."
+    },
+    {
+        "id": 8,
+        "customer": "Carlos Rodriguez",
+        "message": "I'm travelling to Mexico next week. What roaming options do you have and how do I activate them before I leave?"
+    },
+    {
+        "id": 9,
+        "customer": "Lisa Chang",
+        "message": "I need to dispute a charge on my bill. There's a $35 reconnection fee but I was never disconnected. My service has been active the entire time."
+    },
+    {
+        "id": 10,
+        "customer": "James O'Brien",
+        "message": "My mobile hotspot stopped working yesterday. I have the Premium plan which should include 15 GB hotspot. I've only used about 3 GB this month."
+    },
+    {
+        "id": 11,
+        "customer": "Priya Sharma",
+        "message": "I want to add my daughter to my plan as a second line. She's 16 and I want to make sure there are parental controls available. What are my options?"
+    },
+    {
+        "id": 12,
+        "customer": "Tom Anderson",
+        "message": "Cancel my account right now. I don't want to hear about any deals or retention offers. Just cancel it effective immediately."
+    },
+    {
+        "id": 13,
+        "customer": "Maria Gonzalez",
+        "message": "I just bought a new Samsung Galaxy S25 and I need help setting it up with my NovaTel SIM card. The phone isn't detecting the network."
+    },
+    {
+        "id": 14,
+        "customer": "Kevin Hughes",
+        "message": "Why was I charged $12 for a roaming day pass? I was in Canada the entire day and never left the country. This charge is fraudulent."
+    },
+    {
+        "id": 15,
+        "customer": "Nina Patel",
+        "message": "I've been on hold for 45 minutes. This is absolutely unacceptable customer service. I pay $95 a month for the Ultimate plan which supposedly includes priority support. This is a joke."
+    },
+    {
+        "id": 16,
+        "customer": "Alex Foster",
+        "message": "How do I set up visual voicemail on my iPhone? I just switched to NovaTel from another carrier."
+    },
+    {
+        "id": 17,
+        "customer": "Rachel Green",
+        "message": "I want to switch from my current Premium plan to the Starter plan. I know it's a downgrade but I'm trying to reduce my monthly expenses."
+    },
+    {
+        "id": 18,
+        "customer": "Daniel Lee",
+        "message": "My internet speed has been terrible for the past week. I'm on the Ultimate plan and paying for unlimited high-speed but I'm getting less than 1 Mbps. I've run multiple speed tests."
+    },
+    {
+        "id": 19,
+        "customer": "Sophie Martin",
+        "message": "I noticed someone changed my account PIN without my authorization. I'm very concerned about the security of my account. Please help immediately."
+    },
+    {
+        "id": 20,
+        "customer": "Michael Brown",
+        "message": "Do you have any student discounts available? I just enrolled at the University of Toronto and I'm looking to save on my phone bill."
+    },
+    {
+        "id": 21,
+        "customer": "Amanda White",
+        "message": "I've had three billing errors in the last four months, my service drops calls constantly, and when I call support nobody can fix anything. I'm filing a complaint with the CCTS if this isn't resolved today."
+    },
+    {
+        "id": 22,
+        "customer": "Hassan Ali",
+        "message": "Can I keep my current phone number if I switch to NovaTel from Bell? How long does the process take?"
+    }
+]
